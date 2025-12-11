@@ -70,7 +70,8 @@ The code is written in Python. Typical dependencies are:
 - `numpy`
 - `pandas`
 - `matplotlib`
-- `agglomerative clustering`
+- `typing`
+- `math`
 
 ## How to use the code
 
@@ -78,9 +79,9 @@ A typical usage pattern is:
 
 1. Prepare the TV product data (titles, attributes, labels) and put it in
    a `data/` directory.
-2. Run the pipeline script (e.g. `msmp_typed_main.py`) to construct
+2. Either run the pipeline script (e.g. `msmp_typed_main.py`) to construct
    representations, apply MinHash + LSH, and perform MSM clustering.
-3. Use `msmp_typed_bootstrap_grids.py` and `msmp_typed_plot.py` to
+3. Or use  `msmp_typed_bootstrap_grids.py` and `msmp_typed_plot.py` to
    reproduce grid searches and plots reported in the paper.
 
 This description is sufficient for reproducing the experiments
