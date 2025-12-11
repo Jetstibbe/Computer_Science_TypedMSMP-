@@ -28,8 +28,8 @@ MSM-based clustering).
 The main Python modules are:
 
 - `msmp_typed_main.py`  
-  Main pipeline for applying MSM clustering. Can be run independently for building token representations,
-  computing MinHash signatures, running LSH blocking. 
+  Main pipeline for building token representations,
+  computing MinHash signatures, running LSH blocking and applying MSM clustering,. 
   Also contains evaluation routines on the labelled test set.
 
 - `msmp_typed_variants.py`  
